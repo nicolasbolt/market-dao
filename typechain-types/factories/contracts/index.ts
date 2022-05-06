@@ -4,3 +4,4 @@
 export * as boxSol from "./Box.sol";
 export * as governanceStandard from "./governance_standard";
 export { GovernanceToken__factory } from "./GovernanceToken__factory";
+export { MarketSettings__factory } from "./MarketSettings__factory";

@@ -1,50 +1,6 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/nick/Documents/Solidity/Hackathon/dao/contracts/Box.sol": {
-      "lastModificationDate": 1651853452544,
-      "contentHash": "8f98be00bf921d33ba47d2de74d3dac7",
-      "sourceName": "contracts/Box.sol",
-      "solcConfig": {
-        "version": "0.8.7",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 100
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata",
-                "devdoc",
-                "userdoc",
-                "storageLayout",
-                "evm.gasEstimates"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          },
-          "metadata": {
-            "useLiteralContent": true
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/access/Ownable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.7"
-      ],
-      "artifacts": [
-        "MarketSettings"
-      ]
-    },
     "/home/nick/Documents/Solidity/Hackathon/dao/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
       "lastModificationDate": 1651702021061,
       "contentHash": "8398972af73b4e9e5ff3b31cad86234f",
@@ -1634,6 +1590,50 @@
       ],
       "artifacts": [
         "GovernorContract"
+      ]
+    },
+    "/home/nick/Documents/Solidity/Hackathon/dao/contracts/MarketSettings.sol": {
+      "lastModificationDate": 1651855225060,
+      "contentHash": "8f98be00bf921d33ba47d2de74d3dac7",
+      "sourceName": "contracts/MarketSettings.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "MarketSettings"
       ]
     }
   }

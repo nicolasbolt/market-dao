@@ -6,3 +6,4 @@ export type { boxSol };
 import type * as governanceStandard from "./governance_standard";
 export type { governanceStandard };
 export type { GovernanceToken } from "./GovernanceToken";
+export type { MarketSettings } from "./MarketSettings";

@@ -54,8 +54,6 @@ export type { IERC165 } from "./@openzeppelin/contracts/utils/introspection/IERC
 export { IERC165__factory } from "./factories/@openzeppelin/contracts/utils/introspection/IERC165__factory";
 export type { DoubleEndedQueue } from "./@openzeppelin/contracts/utils/structs/DoubleEndedQueue";
 export { DoubleEndedQueue__factory } from "./factories/@openzeppelin/contracts/utils/structs/DoubleEndedQueue__factory";
-export type { Box } from "./contracts/Box.sol/Box";
-export { Box__factory } from "./factories/contracts/Box.sol/Box__factory";
 export type { MarketSettings } from "./contracts/Box.sol/MarketSettings";
 export { MarketSettings__factory } from "./factories/contracts/Box.sol/MarketSettings__factory";
 export type { GovernorContract } from "./contracts/governance_standard/GovernorContract";
