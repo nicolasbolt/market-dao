@@ -18,6 +18,7 @@ This project is just a proof of concept and not ready or meant to be used in a p
 Currently this project is set up to run on a localhost blockchain using hardhat.
 
 Run these commands:
+
 In a separate window:
 
 - yarn hardhat node
