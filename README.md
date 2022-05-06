@@ -12,3 +12,18 @@ This project is just a proof of concept and not ready or meant to be used in a p
 
 - Add a basic swapping application with test tokens
 - Allow liquidity providers earn fee from MarketSettings contract
+
+### How to Run This Project
+
+Currently this project is set up to run on a localhost blockchain using hardhat.
+
+Run these commands:
+In a separate window:
+
+- yarn hardhat node
+
+In another window:
+
+- yarn hardhat run scripts/propose.ts --network localhost
+- yarn hardhat run scripts/vote.ts --network localhost
+- yarn hardhat run scripts/queue_and_execute.ts --network localhost
