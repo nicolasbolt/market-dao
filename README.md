@@ -9,6 +9,7 @@ The MarketSettings contract holds a fee setting that can only be updated by the 
 This project is just a proof of concept and not ready or meant to be used in a production environment.
 
 ### Roadmap
+- Improve tailwind styles
 
 - Add a basic staking/swapping application with test tokens
 - Allow liquidity providers earn fee from MarketSettings contract
