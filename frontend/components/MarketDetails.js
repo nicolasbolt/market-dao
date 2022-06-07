@@ -70,7 +70,7 @@ export default function MarketDetails() {
 }
 
   return (
-    <div>
+    <div className='mx-4 mt-5'>
       <div>GT Token Balance: {gtBalance}</div>
       <div>Staked Balance: {stakedBalance}</div>
       <div>Earned Balance: {earnedBalance}</div>
