@@ -5,7 +5,7 @@ import * as fs from 'fs'
 
 export async function makeProposal(functionToCall: string, args: number[], proposalDescription: string) {
     const governor = await ethers.getContract('GovernorContract')
-    const box = await ethers.getContract('MarketSettings')
+    const box = await ethers.getContract('Market')
 
     const encodedFunctionCall = box.interface.encodeFunctionData(
         functionToCall,

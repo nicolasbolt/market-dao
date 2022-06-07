@@ -1592,10 +1592,10 @@
         "GovernorContract"
       ]
     },
-    "/home/nick/Documents/Solidity/Hackathon/dao/contracts/MarketSettings.sol": {
-      "lastModificationDate": 1651855225060,
-      "contentHash": "8f98be00bf921d33ba47d2de74d3dac7",
-      "sourceName": "contracts/MarketSettings.sol",
+    "/home/nick/Documents/Solidity/Hackathon/dao/contracts/Market.sol": {
+      "lastModificationDate": 1653924616589,
+      "contentHash": "8d6d1fdae2bb806c85e662c837263097",
+      "sourceName": "contracts/Market.sol",
       "solcConfig": {
         "version": "0.8.7",
         "settings": {
@@ -1627,13 +1627,14 @@
         }
       },
       "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
         "@openzeppelin/contracts/access/Ownable.sol"
       ],
       "versionPragmas": [
         "^0.8.7"
       ],
       "artifacts": [
-        "MarketSettings"
+        "Market"
       ]
     }
   }

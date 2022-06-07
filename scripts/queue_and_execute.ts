@@ -3,7 +3,7 @@ import { DESCRIPTION, DEVELOPMENT_CHAIN, FUNC, FUNC_ARGS, MIN_DELAY, VOTING_DELA
 import { moveBlocks, moveTime } from '../helpers'
 
 export async function queueAndExecute(functionToCall: string, args: number[], proposalDescription: string) {
-    const box = await ethers.getContract('MarketSettings')
+    const box = await ethers.getContract('Market')
     const encodedFunctionCall = box.interface.encodeFunctionData(
         functionToCall,
         args

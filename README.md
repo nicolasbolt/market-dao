@@ -10,8 +10,10 @@ This project is just a proof of concept and not ready or meant to be used in a p
 
 ### Roadmap
 
-- Add a basic swapping application with test tokens
+- Add a basic staking/swapping application with test tokens
 - Allow liquidity providers earn fee from MarketSettings contract
+
+- Staking: Locking tokens to net rewards
 
 ### How to Run This Project
 
